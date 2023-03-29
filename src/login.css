@@ -1,0 +1,78 @@
+.login_page{
+    height: 100vh;
+    width: 100%;
+}
+
+.welcome{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    width: auto;
+    padding: 2% 0 0 15%;
+    text-align: left;
+    position: absolute;
+    left: 0px;
+}
+
+.login_input{
+    background: #FFFFFF;
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 490px;
+    border-radius: 4px;
+}
+
+.login_email{
+    top: 200px;
+}
+
+.login_pass{
+    top: 300px;
+}
+
+.login_button {
+    text-align: center;
+    top: 420px;
+    color: blue;
+}
+
+#validation_email_msg {
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    left: 490px;
+    top: 245px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+
+    color: #FF0000;
+}
+
+#validation_pass_msg {
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    left: 490px;
+    top: 345px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+
+    color: #FF0000;
+}
+
+.hide {
+    display: none;
+}

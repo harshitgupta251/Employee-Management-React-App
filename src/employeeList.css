@@ -1,0 +1,123 @@
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2148C0;
+}
+
+nav h1 {
+    color: white;
+    margin-left: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+img {
+    margin-right: 20px;
+    height: 30px;
+    width: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+#user_info {
+    position: absolute;
+    width: 180px;
+    height: 90px;
+    left: 1080px;
+    top: 75px;
+    background: #FFFFFF;
+    border: 1px solid blue;
+    z-index: 9;
+}
+
+.user_email {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 9px;
+    top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2148C0;
+}
+
+.logout_btn {
+    position: absolute;
+    width: 91px;
+    height: 38px;
+    left: 51px;
+    top: 40px;
+    color: #2148C0;
+    border: 1px solid #2148C0;
+    background-color: #FFFFFF;
+}
+
+.employee_info {
+    width: 1280px;
+    height: 550px;
+    background-color: white !important;
+}
+
+.add_btn {
+    box-sizing: border-box;
+    color: #2148C0;
+    position: absolute;
+    width: 162px;
+    height: 45px;
+    left: 1094px;
+    top: 90px;
+    border: 1px solid #2148C0;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.employee_list {
+    background-color: #FFFFFF;
+}
+
+table {
+    position: absolute;
+    top: 147px;
+    width: 1265px;
+    color: #2148C0;
+    left: 40px;
+    border-collapse: collapse;
+}
+
+th {
+    height: 50px;
+    line-height: 3.2;
+    font-size: 20px;
+    text-align: left;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #2148C0;
+    line-height: 3.5;
+}
+
+.edit_btn {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: -10px;
+}
+
+.delete_btn {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
